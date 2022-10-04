@@ -1,7 +1,26 @@
-.heading{
-    color:red
+.heading {
+    color: red
 }
 
-.paragraph{
+.paragraph {
     background-color: beige;
+}
+
+.notebox {
+    border: 4px solid #666;
+    padding: .5em;
+}
+
+.notebox.warning {
+    border-color: orange;
+    font-weight: bold;
+}
+
+.notebox.danger {
+    border-color: red;
+    font-weight: bold;
+}
+
+#colored_heading{
+    background-color: pink;
 }
